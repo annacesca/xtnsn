@@ -1,0 +1,17 @@
+ {
+  "background": {
+      "persistent": false,
+      "scripts": ["js/background.js"]
+    },
+    "name": "SAVE URL TEST",
+    "version": "1.0",
+    "description": "Save the url",
+	"permissions": ["storage",
+      "tabs",
+      "activeTab",
+      "contextMenus",
+      "storage",
+      "downloads",
+      "downloads.shelf"],
+    "manifest_version": 2
+  }
